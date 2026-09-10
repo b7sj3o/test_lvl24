@@ -1,4 +1,7 @@
+import math
+
+
 def main():
-    return int(input("(1) >>> ")) + int(input("(2) >>> "))
+    return math.sin(int(input("(1) >>> ")) + int(input("(2) >>> ")))
 
 main()
